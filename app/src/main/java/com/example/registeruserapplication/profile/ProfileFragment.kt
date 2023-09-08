@@ -137,6 +137,9 @@ class ProfileFragment : Fragment() {
     private fun setListeners() {
         binding.etName.setOnEditorActionListener(TextView.OnEditorActionListener { _, actionId, _ ->
             if (actionId == EditorInfo.IME_ACTION_NEXT) {
+                if (binding.etName.text?.isNotEmpty() == true) {
+                    binding.etName.error = getString(R.string.name_error)
+                }
                 return@OnEditorActionListener true
             }
             false
@@ -144,6 +147,9 @@ class ProfileFragment : Fragment() {
 
         binding.etNumber.setOnEditorActionListener(TextView.OnEditorActionListener { _, actionId, _ ->
             if (actionId == EditorInfo.IME_ACTION_NEXT) {
+                if (binding.etNumber.text?.isEmpty() == true) {
+                    binding.etNumber.error = getString(R.string.number_error)
+                }
                 return@OnEditorActionListener true
             }
             false

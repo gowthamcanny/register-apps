@@ -127,6 +127,9 @@ class SignUpFragment : Fragment() {
 
         binding.emailEt.setOnEditorActionListener(TextView.OnEditorActionListener { _, actionId, _ ->
             if (actionId == EditorInfo.IME_ACTION_NEXT) {
+                if (!Patterns.EMAIL_ADDRESS.matcher(binding.emailEt.text.toString()).matches()) {
+                    binding.emailEt.error = getString(R.string.email_error)
+                }
                 return@OnEditorActionListener true
             }
             false

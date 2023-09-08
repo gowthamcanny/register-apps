@@ -30,4 +30,8 @@
     <string name="not_registered_yet_sign_up">Not Registered Yet Sign Up</string>
     <string name="sign_up">SIGN UP</string>
     <string name="already_registered_sign_in">Already Registered Sign-in</string>
+
+    <string name="number_error">Please Enter 10 digit number</string>
+    <string name="name_error">Please Enter name</string>
+    <string name="email_error">Please Enter Valid email</string>
 </resources>
