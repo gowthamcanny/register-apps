@@ -27,7 +27,7 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@null"
                 android:scaleType="centerCrop"
-                android:src="@drawable/dialog" />
+                android:src="@drawable/profile_card_bg" />
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
@@ -39,7 +39,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/dim8"
                     android:fontFamily="@font/josefinsans_semibold"
-                    android:textColor="@color/white"
+                    android:textColor="@color/black"
                     android:textSize="@dimen/text16sp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -52,7 +52,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/dim8"
                     android:fontFamily="@font/josefinsans_lightitalic"
-                    android:textColor="@color/white"
+                    android:textColor="@color/black"
                     android:textSize="@dimen/text16sp"
                     app:layout_constraintEnd_toEndOf="@id/tvName"
                     app:layout_constraintStart_toStartOf="@id/tvName"
@@ -66,7 +66,7 @@
                     android:layout_marginTop="@dimen/dim8"
                     android:layout_marginBottom="@dimen/dim8"
                     android:fontFamily="@font/josefinsans_lightitalic"
-                    android:textColor="@color/white"
+                    android:textColor="@color/black"
                     android:textSize="@dimen/text16sp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="@id/tvNumber"

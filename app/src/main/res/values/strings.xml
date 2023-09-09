@@ -2,7 +2,7 @@
     <string name="app_name">Register</string>
     <string name="name">Name</string>
     <string name="enter_your_name">Enter Your Name</string>
-    <string name="please_register_your_details">Please Register Your Details</string>
+    <string name="please_register_your_details">Create Your Profile</string>
     <string name="number">Mobile No</string>
     <string name="enter_your_number">Enter Your Number</string>
     <string name="dob">DOB</string>
@@ -34,4 +34,5 @@
     <string name="number_error">Please Enter 10 digit number</string>
     <string name="name_error">Please Enter name</string>
     <string name="email_error">Please Enter Valid email</string>
+    <string name="please_create_a_profile">Please Create a profile</string>
 </resources>
