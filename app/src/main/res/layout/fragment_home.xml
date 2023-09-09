@@ -23,6 +23,20 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
+            android:id="@+id/tvLogOut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/josefinsans_medium"
+            android:padding="@dimen/dim8"
+            android:text="@string/log_out"
+            android:textColor="@color/black"
+            android:layout_marginEnd="@dimen/dim8"
+            android:textSize="@dimen/text14sp"
+            app:layout_constraintBottom_toBottomOf="@id/tvHome"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/tvHome" />
+
+        <TextView
             android:id="@+id/tvProfile"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -42,14 +56,14 @@
             android:layout_height="@dimen/zerodp"
             android:orientation="vertical"
             android:visibility="gone"
-            tools:visibility="visible"
             app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/tvHome"
             tools:itemCount="5"
-            tools:listitem="@layout/item_profile_list_layout" />
+            tools:listitem="@layout/item_profile_list_layout"
+            tools:visibility="visible" />
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/fbProfile"

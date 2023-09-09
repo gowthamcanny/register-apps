@@ -99,6 +99,9 @@ class HomeFragment : Fragment(), HomeProfileListAdapter.OnProfileClick {
         binding.fbProfile.setOnClickListener {
             this.view?.findNavController()?.navigate(R.id.action_homeFragment_to_registerFragment)
         }
+        binding.tvLogOut.setOnClickListener {
+            this.view?.findNavController()?.navigate(R.id.action_homeFragment_to_signInFragment)
+        }
     }
 
     override fun onProfileListener(profileResult: ProfileResult) {

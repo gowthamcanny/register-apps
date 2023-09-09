@@ -35,4 +35,5 @@
     <string name="name_error">Please Enter name</string>
     <string name="email_error">Please Enter Valid email</string>
     <string name="please_create_a_profile">Please Create a profile</string>
+    <string name="log_out">LOG OUT</string>
 </resources>
